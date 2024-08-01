@@ -17,6 +17,7 @@ export const AppConstants = {
     reviews: [
         {name: "Jeremy Bath", star: 4, desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis, dolorem error blanditiis officiis voluptatibus saepe quae commodi ut repellat voluptates laboriosam quod autem corporis nulla et quisquam accusamus laudantium.",},
         {name: "Stewen Wolf", star: 3, desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis, dolorem error blanditiis  accusamus laudantium.",},
+        {name: "Amir Khusro", star: 5, desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis, dolorem error blanditiis ofrepellat voluptates laboriosam quod autem corporis nulla et quisquam accusamus laudantium.",},
         {name: "Amir Khusro", star: 5, desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis, dolorem error blanditiis ofrepellat voluptates laboriosam quod autem corporis nulla et quisquam accusamus laudantium.",}
     ]
 }

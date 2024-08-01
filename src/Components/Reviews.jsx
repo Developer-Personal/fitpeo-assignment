@@ -8,7 +8,7 @@ const Reviews = () => {
     const stars = Array(5).fill(false);
 
     return (
-        <div className='rounded px-3 py-3 reviewOuter' style={{ backgroundColor: Colors.PRIMARY_DARK ,overflowY:"auto", height:"400px"}}>
+        <div className='rounded px-3 py-md-3  reviewOuter ms-md-3 mt-4 mt-md-0' style={{ backgroundColor: Colors.PRIMARY_DARK ,overflowY:"auto", height:"465px"}}>
             <h4 className="text-light mb-4">Customer's Feedback</h4>
             {
                 AppConstants.reviews.map((item, index) => (

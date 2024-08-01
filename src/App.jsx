@@ -33,7 +33,7 @@ function App() {
 
               </div>
             </div>
-            <div className="col-md-4 col-12 ps-4 ">
+            <div className="col-md-4 col-12 ">
               <div className="row h-100">
                 <div className="col-12 p-2">
                   <ProfitCard />
@@ -47,8 +47,8 @@ function App() {
             <div className="col-md-8 col-12">
               <ChartData />
             </div>
-            <div className="col-md-4 col-12 ps-4">
-              <div className="rounded p-3 h-100 d-flex flex-column justify-content-around" style={{ backgroundColor: Colors.PRIMARY_DARK }}>
+            <div className="col-md-4 col-12">
+              <div className="rounded p-3 h-100 d-flex flex-column justify-content-around ms-md-3 mt-4 mt-md-0" style={{ backgroundColor: Colors.PRIMARY_DARK }}>
                 {
                   AppConstants.secondData.map((item, index) => <div key={index} className='d-flex w-100 my-2 gap-2 align-items-center'>
                     <span className='d-flex align-items-center justify-content-center' style={{ color: item.iconColor, backgroundColor: item.iconBg, borderRadius: "50%", width: "40px", height: "40px" }}><MdOutlineDeliveryDining /></span>
@@ -65,7 +65,7 @@ function App() {
             <div className="col-md-8 col-12">
               <RecentOrders />
             </div>
-            <div className="col-md-4 col-12 ps-4">
+            <div className="col-md-4 col-12">
               <div className="row">
                 <div className="col-12 ">
                   <Reviews />

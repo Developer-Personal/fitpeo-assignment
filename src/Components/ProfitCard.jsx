@@ -9,7 +9,7 @@ const ProfitCard = () => {
     const percentage = 75;
 
     return (
-        <div className='rounded px-3 py-3 h-100' style={{ backgroundColor: Colors.PRIMARY_DARK }}>
+        <div className='rounded px-3 py-3 h-100 ms-md-3' style={{ backgroundColor: Colors.PRIMARY_DARK }}>
             <div className="row">
                 <div className="col-7">
                     <small style={{ color: "white" }}>Net Profit</small>

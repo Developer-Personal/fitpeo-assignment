@@ -83,6 +83,10 @@ th{
 td{
     padding: 7px 0;
 }
+td .table-image {
+    background-color: transparent !important;
+    color: white !important;
+}
 .profile-img-table{
     width: 25px;
     height: 25px;

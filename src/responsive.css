@@ -7,4 +7,10 @@
     .search-bar{
         width: 200px;
     }
+    td, th{
+        font-size: 12px;
+    }
+    .status{
+        font-size: 10px;
+    }
 }
