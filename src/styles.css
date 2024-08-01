@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.side-nav{
+    position: fixed;
+    top: 60px;
+    height: 100vh;
+    width: 60px;
+}
+.side-nav ul li, .logout{
+    color: white;
+    font-size: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    
+}
+.logout{
+    margin: 0;
+}
+.search-bar{
+    width: 300px;
+    background-color: #484747;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.search-bar input::placeholder{
+    color: white;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    max-width: 90%;
+    background-color: inherit;
+}
+.nav-links>span{
+    padding: 10px;
+    background-color: #484747;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('./assets/profile.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+select{
+    background-color: #484747;
+    border-radius: 20px;
+    padding: 1px 10px;
+    color: white;
+    font-size: 11px;
+}
+table tr{
+    border-bottom: 1px solid rgb(72, 71, 71);
+    color: white;
+}
+th{
+    padding: 10px 0;
+}
+td{
+    padding: 7px 0;
+}
+.profile-img-table{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-image: url('./assets/profile.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+tr:nth-last-child(1), .review:nth-last-child(1){
+    border: none;
+}
+.review{
+    border-bottom: 1px solid rgb(72, 71, 71);
+}
+.reviewOuter{
+    scrollbar-width: thin;
+}
+.reviewOuter::-webkit-scrollbar {
+    width: 8px; 
+  }
+  .reviewOuter::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  .reviewOuter::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px; 
+  }
+  
+  .reviewOuter::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  .reviewOuter{
+    scrollbar-width: thin; 
+    scrollbar-color: #888 transparent; 
+  }
